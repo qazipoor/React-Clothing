@@ -1,0 +1,13 @@
+.sign-in-form-container {
+    
+    h2 {
+        margin: 10px 0;
+    }
+}
+
+.buttons-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    justify-content: center;
+}
