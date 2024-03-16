@@ -1,14 +1,13 @@
 import { useState } from "react";
 
 import {
-  signInWithGooglePopup,
+  createAuthUserWithEmailAndPassword,
   createUserDocumentFromAuth,
 } from "../../utils/firebase/firebase.utils";
 
-import { createAuthUserWithEmailAndPassword } from "../../utils/firebase/firebase.utils";
-
 import FormInput from "../form-input/form-input.component";
 import Button from "../button/button.component";
+
 import "../form-input/form-input.styles.scss";
 import "./sign-up-form-styles.scss";
 
@@ -35,17 +34,16 @@ const SignUpForm = () => {
       return;
     }
 
-    try {
-      // const { name, value } = event.target;
-      // setFormFields({ ...formFields, [name]: value });
 
-      const response = await createAuthUserWithEmailAndPassword(
+    try {
+      const { user } = await createAuthUserWithEmailAndPassword(
         email,
         password
       );
 
-      await createUserDocumentFromAuth(response.user, { displayName });
+      await createUserDocumentFromAuth(user, { displayName });
       resetFormFields();
+
     } catch (error) {
       if (error.code === 'auth/email-already-in-use') {
         alert('Cannot create user, email already in use');
