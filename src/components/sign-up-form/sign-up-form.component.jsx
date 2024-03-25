@@ -8,7 +8,6 @@ import {
 import FormInput from "../form-input/form-input.component";
 import Button from "../button/button.component";
 
-import "../form-input/form-input.styles.scss";
 import { SignUpContainer } from "./sign-up-form-styles";
 
 const defaultFormFields = {
