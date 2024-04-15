@@ -7,9 +7,7 @@ import { CheckoutItemContainer, ImageContainer } from "./checkout-item.styles";
 
 const CheckoutItem = ({ cartItem }) => {
   const { name, imageUrl, price, quantity } = cartItem;
-
   const dispatch = useDispatch();
-
   const cartItems = useSelector(selectCartItems);
 
   const clearItemHandler = () =>
@@ -18,9 +16,6 @@ const CheckoutItem = ({ cartItem }) => {
     dispatch(addItemToCart(cartItems, cartItem));
   const removeItemHandler = () =>
     dispatch(removeItemFromCart(cartItems, cartItem));
-
-  const cartSelector = (state) => state;
-  console.log(useSelector(cartSelector));
 
   return (
     <CheckoutItemContainer>
