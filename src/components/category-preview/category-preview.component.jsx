@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import ProductCard from "../product-card/product-card.component";
 import Spinner from "../spinner/spinner.component";
 
-import { selectCategoriesIsLoading } from "../../store/categories/category.selector";
+import { selectCategoriesIsLoading } from "../../store/categories/category.selector.ts";
 
 import { CategoryPreviewContainer } from "./category-preview.styles";
 
