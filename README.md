@@ -267,7 +267,6 @@ Full tech stack [here](/techstack.md)
 |[redux-logger](https://www.npmjs.com/redux-logger)|v3.0.6|06/06/24|Ali Qazipoor |MIT|N/A|
 
 <br/>
-<div align='center'>
 
 Generated via [Stack File](https://github.com/marketplace/stack-file)
 
