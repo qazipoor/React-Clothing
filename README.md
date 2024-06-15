@@ -1,5 +1,6 @@
-Live Preview on Netlify:
+Live Preview on Netlify:<br>
 https://crown-clothing-react-app.netlify.app/
+<br><br>
 
 <!--
 &lt;--- Readme.md Snippet without images Start ---&gt;
