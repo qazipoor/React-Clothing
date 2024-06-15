@@ -4,7 +4,7 @@ import { CartItemContainer } from './cart-item.styles';
 
 import { CartItem as TCartItem } from '../../store/cart/cart.types';
 
-type CartItemProps = {
+export type CartItemProps = {
     cartItem: TCartItem;
 }
 
