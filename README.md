@@ -1,3 +1,6 @@
+Live Preview on Netlify:
+https://crown-clothing-react-app.netlify.app/
+
 <!--
 &lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
