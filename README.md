@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/95118c7b-de0d-4fd1-809f-92fd4f63c889/deploy-status)](https://app.netlify.com/sites/crown-clothing-react-app/deploys)
+
 Live Preview on Netlify:<br>
 https://crown-clothing-react-app.netlify.app/
 <br><br>
