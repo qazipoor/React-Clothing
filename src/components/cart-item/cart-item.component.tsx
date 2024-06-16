@@ -1,25 +1,27 @@
-import { FC } from 'react';
+import { FC, memo } from "react";
 
-import { CartItemContainer } from './cart-item.styles';
+import { CartItemContainer } from "./cart-item.styles";
 
-import { CartItem as TCartItem } from '../../store/cart/cart.types';
+import { CartItem as TCartItem } from "../../store/cart/cart.types";
 
 export type CartItemProps = {
-    cartItem: TCartItem;
-}
+  cartItem: TCartItem;
+};
 
-const CartItem: FC<CartItemProps> = ({ cartItem }) => {
-    const { name, imageUrl, price, quantity } = cartItem;
+const CartItem: FC<CartItemProps> = memo(({ cartItem }) => {
+  const { name, imageUrl, price, quantity } = cartItem;
 
-    return (
-        <CartItemContainer>
-            <img src={imageUrl} className='' alt={name} />
-            <div className='item-details'>
-                <span className='name'>{name}</span>
-                <span className='price'>{quantity} x ${price}</span>
-            </div>
-        </CartItemContainer>
-    )
-}
+  return (
+    <CartItemContainer>
+      <img src={imageUrl} className="" alt={name} />
+      <div className="item-details">
+        <span className="name">{name}</span>
+        <span className="price">
+          {quantity} x ${price}
+        </span>
+      </div>
+    </CartItemContainer>
+  );
+});
 
 export default CartItem;
