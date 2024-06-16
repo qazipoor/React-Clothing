@@ -1,4 +1,4 @@
-[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/qazipoor/react-clothing)
+[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/qazipoor/react-clothing-shop)
 &nbsp;
 [![Netlify Status](https://api.netlify.com/api/v1/badges/95118c7b-de0d-4fd1-809f-92fd4f63c889/deploy-status)](https://app.netlify.com/sites/crown-clothing-react-app/deploys)
 
