@@ -60,7 +60,7 @@ Full tech stack [here](/techstack.md)
 <div align="center">
 
 # Tech Stack File
-![](https://img.stackshare.io/repo.svg "repo") [qazipoor/React-Clothing](https://github.com/qazipoor/React-Clothing)![](https://img.stackshare.io/public_badge.svg "public")
+![](https://img.stackshare.io/repo.svg "repo") [qazipoor/React-Clothing](https://github.com/qazipoor/React-Clothing-Shop)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
 |33<br/>Tools used|06/14/24 <br/>Report generated|
 |------|------|
