@@ -8,12 +8,12 @@ export const BaseButton = styled.button`
   height: 50px;
   letter-spacing: 0.5px;
   line-height: 50px;
-  padding: 0 35px;
+  padding: 0 35px 0 35px;
   font-size: 15px;
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-family: "Open Sans Condensed";
+  font-family: 'Open Sans Condensed';
   font-weight: bolder;
   border: none;
   cursor: pointer;
@@ -33,6 +33,8 @@ export const BaseButton = styled.button`
   }
 `;
 
+BaseButton.displayName = "BaseButton";
+
 export const GoogleSignInButton = styled(BaseButton)`
   background-color: #4285f4;
   color: white;
@@ -42,6 +44,8 @@ export const GoogleSignInButton = styled(BaseButton)`
     border: none;
   }
 `;
+
+GoogleSignInButton.displayName = "GoogleSignInButton";
 
 export const InvertedButton = styled(BaseButton)`
   background-color: white;
@@ -55,7 +59,11 @@ export const InvertedButton = styled(BaseButton)`
   }
 `;
 
+InvertedButton.displayName = "InvertedButton";
+
 export const ButtonSpinner = styled(SpinnerContainer)`
   width: 30px;
   height: 30px;
 `;
+
+ButtonSpinner.displayName = "ButtonSpinner";

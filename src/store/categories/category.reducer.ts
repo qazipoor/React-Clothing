@@ -2,15 +2,19 @@ import { AnyAction } from "redux";
 
 import { Category } from "./category.types";
 
-import { fetchCategoriesStart, fetchCategoriesSuccess, fetchCategoriesFailed } from "./category.action";
+import {
+  fetchCategoriesStart,
+  fetchCategoriesSuccess,
+  fetchCategoriesFailed,
+} from "./category.action";
 
 export type CategoriesState = {
-  readonly categories: Category[]
+  readonly categories: Category[];
   readonly isLoading: boolean;
   readonly error: Error | null;
-}
+};
 
-const CATEGORIES_INITIAL_STATE: CategoriesState = {
+export const CATEGORIES_INITIAL_STATE: CategoriesState = {
   categories: [],
   isLoading: false,
   error: null,
